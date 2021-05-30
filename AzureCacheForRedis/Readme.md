@@ -66,6 +66,8 @@ Connection string is stored in user secrets
 `dotnet user-sercrets set CacheConnection "cache16170530.redis.cache.windows.net:6380,abortConnect=false,ssl=true,allowAdmin=true
 ,password=something"`
 
+where `something` is the access key from the portal.
+
 ---
 Clean up:
 `az redis delete -n cache16170530 -g az204`
