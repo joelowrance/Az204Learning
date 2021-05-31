@@ -1,18 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text.Json;
-using System.Transactions;
-using System.Windows.Markup;
 using Azure.Messaging.ServiceBus;
-using Microsoft.Extensions.Configuration;
 using CommonSupport;
+using Microsoft.Extensions.Configuration;
 
-
-namespace ServiceBusSender
+namespace ServiceBusTopicSender
 {
     class Program
     {
-        private static string QueueName = "mainqueue";
+        //Only change in the sender is we send to a topic.
+        private static string TopicName = "MyTopic";
         
         static void Main(string[] args)
         {
@@ -30,17 +27,17 @@ namespace ServiceBusSender
             
 
             ServiceBusClient client = new ServiceBusClient(Configuration["ConnectionString"]);
-            Azure.Messaging.ServiceBus.ServiceBusSender sender = client.CreateSender(QueueName);
+            Azure.Messaging.ServiceBus.ServiceBusSender sender = client.CreateSender(TopicName);
 
             foreach (var order in orders)
             {
                 var message = new ServiceBusMessage(order.ToString())
                 {
                     ContentType = "application/json",
-                    TimeToLive = TimeSpan.FromSeconds(30), // can override the queue default
+                    TimeToLive = TimeSpan.FromSeconds(300), // BE CAREFUL!!!
                 };
                 
-                message.ApplicationProperties.Add("Department", "Sales");
+                message.ApplicationProperties.Add("Topic", "Yes");
                 
                 sender.SendMessageAsync(message).GetAwaiter().GetResult();
                 
@@ -49,7 +46,7 @@ namespace ServiceBusSender
             Console.WriteLine("All messages sent");
             Console.ReadKey();
         }
-
+        
         #region config
 
         private static void InitializeConfiguration()
@@ -64,6 +61,4 @@ namespace ServiceBusSender
 
         #endregion
     }
-    
-    
 }

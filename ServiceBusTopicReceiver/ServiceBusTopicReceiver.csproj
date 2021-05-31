@@ -3,16 +3,12 @@
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <TargetFramework>net5.0</TargetFramework>
-      <UserSecretsId>90da0602-8aa0-45d7-b75f-1a6351e29507</UserSecretsId>
+      <UserSecretsId>3e5cc241-192e-46c0-8e90-8b9006704e4b</UserSecretsId>
   </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="Azure.Messaging.ServiceBus" Version="7.1.2" />
       <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="5.0.0" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\CommonSupport\CommonSupport.csproj" />
     </ItemGroup>
 
 </Project>
