@@ -1,18 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureCacheForRedis", "AzureCacheForRedis\AzureCacheForRedis.csproj", "{300A5973-4724-4AF5-BCC9-A6628C94530B}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureCacheForRedis", "AzureCacheForRedis\AzureCacheForRedis.csproj", "{300A5973-4724-4AF5-BCC9-A6628C94530B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusSender", "ServiceBusSender\ServiceBusSender.csproj", "{7B089704-A640-4F4A-B1B6-61290FD2C0E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBusSender", "ServiceBusSender\ServiceBusSender.csproj", "{7B089704-A640-4F4A-B1B6-61290FD2C0E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusReceiver", "ServiceBusReceiver\ServiceBusReceiver.csproj", "{62A5ACD0-B4BE-411E-AC6B-66F1AF324E8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBusReceiver", "ServiceBusReceiver\ServiceBusReceiver.csproj", "{62A5ACD0-B4BE-411E-AC6B-66F1AF324E8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusTopicSender", "ServiceBusTopicSender\ServiceBusTopicSender.csproj", "{04DC8A81-2D3C-422E-8679-1978BCD6A66E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBusTopicSender", "ServiceBusTopicSender\ServiceBusTopicSender.csproj", "{04DC8A81-2D3C-422E-8679-1978BCD6A66E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonSupport", "CommonSupport\CommonSupport.csproj", "{003920D5-E12B-4C5D-B817-688DD37796B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonSupport", "CommonSupport\CommonSupport.csproj", "{003920D5-E12B-4C5D-B817-688DD37796B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusTopicReceiver", "ServiceBusTopicReceiver\ServiceBusTopicReceiver.csproj", "{CE795134-562C-46AD-B826-34DEC743F5A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBusTopicReceiver", "ServiceBusTopicReceiver\ServiceBusTopicReceiver.csproj", "{CE795134-562C-46AD-B826-34DEC743F5A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusQueueFunction", "ServiceBusQueueFunction\ServiceBusQueueFunction.csproj", "{1EDB94BB-62AA-4099-BB36-682D24DD333C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBusQueueFunction", "ServiceBusQueueFunction\ServiceBusQueueFunction.csproj", "{1EDB94BB-62AA-4099-BB36-682D24DD333C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventGridTriggeredFromStorageAccount", "EventGridTriggeredFromStorageAccount\EventGridTriggeredFromStorageAccount.csproj", "{16C2521D-C6CB-4926-84AA-B5C2959BA7B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,5 +53,15 @@ Global
 		{1EDB94BB-62AA-4099-BB36-682D24DD333C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EDB94BB-62AA-4099-BB36-682D24DD333C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EDB94BB-62AA-4099-BB36-682D24DD333C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16C2521D-C6CB-4926-84AA-B5C2959BA7B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16C2521D-C6CB-4926-84AA-B5C2959BA7B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16C2521D-C6CB-4926-84AA-B5C2959BA7B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16C2521D-C6CB-4926-84AA-B5C2959BA7B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FB5D959-F8BB-4808-A5C3-06DC39507632}
 	EndGlobalSection
 EndGlobal

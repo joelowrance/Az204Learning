@@ -16,5 +16,5 @@ namespace ServiceBusQueueFunction
             log.LogInformation($"C# ServiceBus topic trigger function processed message: {mySbMsg}");
             
         }
-    }
+    } 
 }

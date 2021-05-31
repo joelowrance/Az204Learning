@@ -1,3 +1,5 @@
+**The namespace is created in ServiceBusSender**
+
 Create the topic 
 
 `az servicebus topic create -n MyTopic --namespace-name sb19010530 -g az204`
@@ -34,6 +36,7 @@ Create the topic
 }
 ````
 create a subscription
+
 `az servicebus topic subscription create -n Sub1 --namespace-name sb19010530 -g az204 --topic-name MyTopic --max-delivery-count 5`
 
 ````
