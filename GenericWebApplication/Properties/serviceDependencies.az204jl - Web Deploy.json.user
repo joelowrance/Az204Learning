@@ -2,11 +2,11 @@
   "dependencies": {
     "secrets1": {
       "restored": true,
-      "restoreTime": "2021-06-05T15:15:49.4764407Z"
+      "restoreTime": "2021-06-05T23:26:48.7937671Z"
     },
     "appInsights1": {
       "restored": true,
-      "restoreTime": "2021-06-05T22:38:02.2553794Z"
+      "restoreTime": "2021-06-05T23:09:24.2732293Z"
     }
   },
   "parameters": {
@@ -19,6 +19,16 @@
       "Name": "appInsights1.resourceGroupName",
       "Type": "resourceGroup",
       "Value": "az204"
+    },
+    "secrets1.resourceGroupName": {
+      "Name": "secrets1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "az204"
+    },
+    "secrets1.subscriptionId": {
+      "Name": "secrets1.subscriptionId",
+      "Type": "subscription",
+      "Value": "03d0ff60-6017-4624-af46-3ff7412ec533"
     }
   }
 }
