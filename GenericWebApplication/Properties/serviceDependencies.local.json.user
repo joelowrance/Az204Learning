@@ -6,8 +6,19 @@
     },
     "appInsights1": {
       "restored": true,
-      "restoreTime": "2021-06-05T15:16:30.1405255Z"
+      "restoreTime": "2021-06-05T15:19:56.2323186Z"
     }
   },
-  "parameters": {}
+  "parameters": {
+    "appInsights1.subscriptionId": {
+      "Name": "appInsights1.subscriptionId",
+      "Type": "subscription",
+      "Value": "03d0ff60-6017-4624-af46-3ff7412ec533"
+    },
+    "appInsights1.resourceGroupName": {
+      "Name": "appInsights1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "az204"
+    }
+  }
 }

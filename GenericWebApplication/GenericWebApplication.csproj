@@ -3,9 +3,11 @@
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
       <UserSecretsId>dd167a9d-7f18-4138-97f4-a7bd404ab988</UserSecretsId>
+      <ApplicationInsightsResourceId>/subscriptions/03d0ff60-6017-4624-af46-3ff7412ec533/resourceGroups/az204/providers/microsoft.insights/components/app-insights</ApplicationInsightsResourceId>
   </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
       <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="5.0.0" />
       <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
     </ItemGroup>
