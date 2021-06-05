@@ -27,6 +27,7 @@ namespace GenericWebApplication
             // Ensure to add the services
             services.AddMvc();
             services.AddTransient<CourseService>();
+            services.AddApplicationInsightsTelemetry();
             //services.AddRazorPages();
         }
 
