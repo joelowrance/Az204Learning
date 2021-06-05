@@ -1,0 +1,21 @@
+﻿@model GenericWebApplication.Models.Course
+
+@{
+    ViewData["Title"] = "Details Page";
+}
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<h1>Details Page</h1>
+
+
+    
+            The Course ID is @Model.CourseID<br /><br />
+            The Course Name is @Model.CourseName<br /><br />
+            The Course rating is @Model.Rating<br /><br />
+    
+
+    <div>
+        <a asp-action="Index">Back to List</a>
+    </div>
