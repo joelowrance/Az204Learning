@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventGridTriggeredFromStora
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericWebApplication", "GenericWebApplication\GenericWebApplication.csproj", "{35BE51A3-AB86-4836-A271-D98115792320}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureCacheForRedisSimple", "AzureCacheForRedisSimple\AzureCacheForRedisSimple.csproj", "{8B98D43C-B73B-4458-A196-C5B61CCB081E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableStorage", "TableStorage\TableStorage.csproj", "{7C7E2AC6-E0D8-4E4A-B02C-291DB1C936F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{35BE51A3-AB86-4836-A271-D98115792320}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35BE51A3-AB86-4836-A271-D98115792320}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35BE51A3-AB86-4836-A271-D98115792320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B98D43C-B73B-4458-A196-C5B61CCB081E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B98D43C-B73B-4458-A196-C5B61CCB081E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B98D43C-B73B-4458-A196-C5B61CCB081E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B98D43C-B73B-4458-A196-C5B61CCB081E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C7E2AC6-E0D8-4E4A-B02C-291DB1C936F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C7E2AC6-E0D8-4E4A-B02C-291DB1C936F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C7E2AC6-E0D8-4E4A-B02C-291DB1C936F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C7E2AC6-E0D8-4E4A-B02C-291DB1C936F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
