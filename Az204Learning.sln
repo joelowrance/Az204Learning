@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureCacheForRedisSimple", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableStorage", "TableStorage\TableStorage.csproj", "{7C7E2AC6-E0D8-4E4A-B02C-291DB1C936F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosDb", "CosmosDb\CosmosDb.csproj", "{B85CC8BC-EFD8-46C0-8CFC-593F418306D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{7C7E2AC6-E0D8-4E4A-B02C-291DB1C936F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C7E2AC6-E0D8-4E4A-B02C-291DB1C936F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C7E2AC6-E0D8-4E4A-B02C-291DB1C936F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B85CC8BC-EFD8-46C0-8CFC-593F418306D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B85CC8BC-EFD8-46C0-8CFC-593F418306D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B85CC8BC-EFD8-46C0-8CFC-593F418306D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B85CC8BC-EFD8-46C0-8CFC-593F418306D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
