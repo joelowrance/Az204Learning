@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+      <UserSecretsId>0f523420-a9b5-400e-9987-d20f8f7d1535</UserSecretsId>
+  </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Azure.Storage.Blobs" Version="12.9.0" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="5.0.0" />
+    </ItemGroup>
+
+</Project>
